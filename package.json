@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxi build",
+    "dev": "nuxi dev",
+    "start": "node .output/server/index.mjs",
+    "generate": "export NITRO_PRESET=browser && npm run build"
+  },
+  "devDependencies": {
+    "@pinia/nuxt": "^0.1.6",
+    "element-plus": "1.2.0-beta.5",
+    "nuxt3": "^3.0.0-27307420.6a25d3e",
+    "sass": "^1.44.0",
+    "typescript": "^4.5.2"
+  },
+  "pnpm": {
+    "overrides": {
+      "@nuxt/kit": "npm:@nuxt/kit-edge@latest",
+      "@nuxt/kit-edge": "latest"
+    }
+  },
+  "dependencies": {
+    "pinia": "^2.0.5"
+  }
+}
