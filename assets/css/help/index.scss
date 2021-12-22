@@ -1,0 +1,76 @@
+.m-help {
+	width: 100%;
+	padding: 20px 0;
+	background-color: #fff;
+	border-top: 3px solid #b89485;
+	.help-ntop {
+		font-size: 16px;
+		color: #6e6b6b;
+		margin: 10px 0;
+	}
+	.hborder {
+		border: 1px solid #adadad;
+		padding: 30px;
+		.hright {
+			color: #5c5a5a;
+			.h-title {
+				border-bottom: 3px solid #b89485;
+				margin: 20px;
+				line-height: 40px;
+				text-align: center;
+			}
+			.rcont {
+                width: 100%;
+				h2,h3 {
+					font-size: 16px;
+					color: #686767;
+					text-align: left;
+					line-height: 30px;
+					margin: 0 !important;
+				}
+                p{
+                    line-height: 40px;
+                    width: 100%;
+                    img{
+                        width: 100%;
+                    }
+                }
+			}
+		}
+	}
+	.el-table::before {
+		left: 0;
+		bottom: 0;
+		width: 0 !important;
+		height: 1px;
+	}
+	.m-help-nav {
+		.cell {
+			font-size: 16px;
+			color: #333;
+		}
+		.stitle {
+			font-size: 14px;
+			font-weight: 700;
+		}
+		li {
+			list-style: none;
+			a {
+				color: #999 !important;
+				text-decoration: none;
+				font-size: 12px;
+				margin: 5px 0;
+				&:hover {
+					color: #b89485 !important;
+					// c7d2d4
+				}
+			}
+		}
+		.el-table {
+			--el-table-row-hover-bg-color: none !important;
+		}
+        .active{
+            color:#b89485!important;
+        }
+	}
+}

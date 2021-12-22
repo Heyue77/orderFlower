@@ -1,0 +1,44 @@
+.m-header-top {
+	padding-top: 10px;
+	.left {
+		display: flex;
+		a {
+			position: relative;
+			.ecode {
+				display: none;
+				position: absolute;
+				bottom: -99px;
+				left: 0;
+				z-index: 99;
+			}
+			p {
+				margin:  0 !important;
+				padding-bottom: 3px;
+				height: 24px;
+				line-height: 24px;
+			}
+			span {
+				display: inline-block;
+				vertical-align: top;
+			}
+			&:hover .ecode {
+				display: block;
+			}
+		}
+		span.iconfont {
+			font-size: 24px !important;
+			color: #b89485;
+		}
+	}
+	a {
+		color: #999 !important;
+		text-decoration: none;
+		&:hover {
+			color: #b89485 !important;
+			// c7d2d4
+		}
+	}
+	span.line {
+		margin: 0 10px;
+	}
+}

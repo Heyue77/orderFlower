@@ -1,0 +1,64 @@
+.el-footer {
+	padding: 0 !important;
+	.m-foot {
+		background-color: #fff;
+		padding: 40px 0;
+		margin-bottom: 10px;
+		dt {
+			margin-bottom: 8px;
+			font-size: 16px;
+		}
+		dd {
+			margin-left: 0 !important;
+			padding: 3px 0;
+			font-size: 14px;
+		}
+		.fline {
+            position: relative;
+			.sline {
+				&::before {
+					content: "";
+					position: absolute;
+					height: 134px;
+					width: 1px;
+					background-color: #c7c1c1;
+					left: -64px;
+                    top: 0px;
+				}
+                &::after {
+					content: "";
+					position: absolute;
+					height: 134px;
+					width: 1px;
+					background-color: #c7c1c1;
+					right : 48px;
+                    top: 0px;
+				}
+			}
+		}
+
+		a {
+			text-decoration: none;
+			color: #aaa;
+			margin-right: 30px;
+			&:hover {
+				color: #b89485;
+				text-decoration: underline;
+			}
+		}
+        .fcodeborder{
+            border: 1px solid #b89485;
+        }
+        .fcode{
+            font-size: 16px;
+            color: #aaa;
+        }
+		
+	}
+	.conf{
+		text-align: center;
+		font-size: 14px;
+		color: #aaa;
+
+	}
+}

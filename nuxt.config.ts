@@ -8,8 +8,12 @@ export default defineNuxtConfig({
     '@vueuse/core/nuxt',
     '@pinia/nuxt',
   ],
+  privateRuntimeConfig: {
+    API_BASE: "http://localhost:9999",
+  },
   css: [
-    'assets/scss/index.scss'
+    "assets/scss/index.scss",
+    "assets/css/main.css",
   ],
   components: [
     '~/components/',
@@ -18,6 +22,14 @@ export default defineNuxtConfig({
     // }
   ],
   vite: {
-    logLevel: 'info',
+    logLevel: "info",
+    server:{
+      proxy:{
+        "/api":{
+          target:"http://localhost:9999",
+          changeOrigin: true,
+        }
+      }
+    }
   },
 })

@@ -9,3 +9,12 @@ html.dark {
   background: #222;
   color: white;
 }
+body{
+  background-color: #e6d2d5;
+}
+.container{
+  padding: 0 70px;
+}
+p{
+  margin:0 ;
+}

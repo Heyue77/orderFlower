@@ -1,0 +1,23 @@
+.m-header{
+    .m-header-cont{
+        height: 130px;
+        background-color: #fff!important;
+        .m-phone{
+           padding-top: 40px;
+           vertical-align: top;
+           span{
+               &:last-child{
+                   display: inline-block;
+                   height: 30px;
+                   line-height: 30px;
+                   vertical-align: top;
+                   margin-left: 6px;
+               }
+           }
+           span.icon-dianhua{
+               font-size: 30px;
+               color: #b89485
+           }
+        }
+    }
+}

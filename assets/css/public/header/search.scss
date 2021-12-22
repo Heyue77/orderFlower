@@ -1,0 +1,27 @@
+.m-header-search {
+	.el-input {
+		margin-top: 30px;
+		width: 70% !important;
+		border: 1px solid #b89485;
+		input {
+			border: none;
+			border-top-right-radius: 0;
+			border-bottom-right-radius: 0;
+			&:focus {
+				outline: none !important; 
+			}
+		}
+	}
+	.suggset{
+		margin-top: 10px;
+		a{
+			text-decoration: none;
+			color: #aaa;
+			margin: 10px 10px;
+			&:hover {
+				color: #b89485;
+				text-decoration: underline;
+			}
+		}
+	}
+}
