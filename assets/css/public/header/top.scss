@@ -1,5 +1,13 @@
 .m-header-top {
 	padding-top: 10px;
+	.top-block{
+		display: inline-block;
+		.top-username{
+			font-size: 16px;
+			font-weight: 700;
+			color: #b89485;
+		}
+	}
 	.left {
 		display: flex;
 		a {

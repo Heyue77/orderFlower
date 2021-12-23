@@ -45,13 +45,13 @@
                         <nuxt-link to="/">意见反馈</nuxt-link>
                     </dd>
                     <dd>
-                        <nuxt-link to="/">工作时间：07:00-23:00</nuxt-link>
+                        <nuxt-link to="/">工作时间:07:00-23:00</nuxt-link>
                     </dd>
                     <dd>
                         <nuxt-link to="/">7*24小时在线订购</nuxt-link>
                     </dd>
                     <dd>
-                        <nuxt-link to="/">全国热线：400-060-1521</nuxt-link>
+                        <nuxt-link to="/">全国热线:400-060-1521</nuxt-link>
                     </dd>
                 </el-col>
                 <el-col :span="3">

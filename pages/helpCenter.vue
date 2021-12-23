@@ -28,7 +28,7 @@ import { ref, watch } from 'vue'
 
 
 const route = useRoute()
-console.log(route.query, "qqu")
+// console.log(route.query, "qqu")
 const query = ref(route.query)
 const refrensh = ref(true);
 const timer=ref('')
@@ -41,8 +41,7 @@ if (config.API_BASE) {
     tableData.value = helpData
 
 } else {
-    let { data } = await useFetch(`http://localhost:9999/api/home/help`);
-
+    let { data } = await useFetch(`/api/home/help`);
     if (data.value) {
         const { helpData } = data.value
         tableData.value = helpData
@@ -71,13 +70,13 @@ getTitle()
 
 
 watch(() => route.query, (nque) => {
-    console.log("路由变了")
+    // console.log("路由变了")
     refrensh.value = false;
     timer.value = new Date().getTime()
     query.value = nque;
     refrensh.value = true;
     getTitle()
-    console.log(rtitle.value, rcont.value)
+    // console.log(rtitle.value, rcont.value)
 })
 
 </script>

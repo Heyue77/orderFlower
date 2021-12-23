@@ -1,0 +1,53 @@
+.m-register {
+	height: 450px;
+	background-image: url("/assets/img/banner1.jpg");
+	position: relative;
+	.m-form {
+		width: 340px;
+		position: absolute;
+		background-color: #fff;
+		border-radius: 10px;
+		top: 20px;
+		right: 30px;
+		.login-btn{
+			text-align: center;
+			padding-right: 10px;
+		}
+		p {
+			text-align: center;
+            margin-left: -25px;
+			a {
+				color: #aaa;
+				&:hover {
+					color: #b89485;
+				}
+			}
+		}
+
+		.header {
+			padding: 10px;
+			text-align: center;
+			border-bottom: 2px solid #b89485;
+			position: relative;
+			.head-type {
+				width: 30%;
+				font-weight: 700;
+				font-size: 18px;
+				&::after {
+					content: "";
+					position: absolute;
+					bottom: 0px;
+					left: 170px;
+					margin-left: -50px;
+					width: 100px;
+					height: 3px;
+					background-color: #f03752;
+				}
+			}
+		}
+		.el-form {
+			width: 300px !important;
+			padding: 20px 5px 0;
+		}
+	}
+}

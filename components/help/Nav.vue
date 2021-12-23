@@ -6,10 +6,13 @@
                 <template #default="scope">
                     <p class="stitle">{{ scope.row.title }}</p>
                     <li v-for="ite in scope.row.navItem" :key="ite.name">
-                        <a
+                        <nuxt-link
+                        :to="{ path: 'helpCenter', query: { el: ite.name, til: scope.row.title } }"
+                           
                             @click="navClick(ite.name, scope.row.title)"
                             :class="[tag == ite.name ? 'active' : '']"
-                        >{{ ite.name }}</a>
+                            
+                        >{{ ite.name }}</nuxt-link>
                     </li>
                 </template>
             </el-table-column>
@@ -52,7 +55,7 @@ const navClick = (el, til) => {
 
 navClick('关于我们', '公司简介')
 
-console.log(props.query, "query")
+// console.log(props.query, "query")
 navClick(props.query.el, props.query.til)
 
 </script>

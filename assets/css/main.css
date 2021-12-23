@@ -1,50 +1,90 @@
 @font-face {
-	font-family: "iconfont"; /* Project id 3036539 */
-	src: url("//at.alicdn.com/t/font_3036539_xm3cdkdecvj.woff2?t=1640001556101")
-			format("woff2"),
-		url("//at.alicdn.com/t/font_3036539_xm3cdkdecvj.woff?t=1640001556101")
-			format("woff"),
-		url("//at.alicdn.com/t/font_3036539_xm3cdkdecvj.ttf?t=1640001556101")
-			format("truetype");
+  font-family: 'iconfont';  /* Project id 3036539 */
+  src: url('//at.alicdn.com/t/font_3036539_8ss6u2xhz8s.woff2?t=1640263760705') format('woff2'),
+       url('//at.alicdn.com/t/font_3036539_8ss6u2xhz8s.woff?t=1640263760705') format('woff'),
+       url('//at.alicdn.com/t/font_3036539_8ss6u2xhz8s.ttf?t=1640263760705') format('truetype');
 }
 
 .iconfont {
-	font-family: "iconfont" !important;
-	font-size: 16px;
-	font-style: normal;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shuxian:before {
+  content: "\e638";
+}
+
+.icon-xianhua:before {
+  content: "\e62f";
+}
+
+.icon-huahonghuazhiwuhuaduo:before {
+  content: "\e622";
+}
+
+.icon-xianhualipin:before {
+  content: "\fd28";
+}
+
+.icon-xiangxia2:before {
+  content: "\e772";
+}
+
+.icon-morentupian_xiaolian_yiqueren:before {
+  content: "\e602";
+}
+
+.icon-icon-test:before {
+  content: "\e674";
+}
+
+.icon-xiaolian-copy:before {
+  content: "\e603";
+}
+
+.icon-xiaolian:before {
+  content: "\e614";
+}
+
+.icon-renlian:before {
+  content: "\e637";
+}
+
+.icon-a-gaoxinghaoxinqingbiaoqingxihuanbiaoqingxiaolian:before {
+  content: "\e743";
 }
 
 .icon-gouwuchekong:before {
-	content: "\e600";
+  content: "\e600";
 }
 
 .icon-weixin:before {
-	content: "\e601";
+  content: "\e601";
 }
 
 .icon-dianhua:before {
-	content: "\e671";
+  content: "\e671";
 }
 
 .icon-erweima:before {
-	content: "\e642";
+  content: "\e642";
 }
 
 .icon-kefu:before {
-	content: "\e60b";
+  content: "\e60b";
 }
 
 .icon-kefu1:before {
-	content: "\e873";
+  content: "\e873";
 }
 
 .icon-shouye:before {
-	content: "\e659";
+  content: "\e659";
 }
 
 .icon-sousuo:before {
-	content: "\e605";
+  content: "\e605";
 }
-

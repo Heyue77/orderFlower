@@ -20,6 +20,8 @@
     }
   },
   "dependencies": {
+    "@element-plus/icons": "^0.0.11",
+    "crypto-js": "^4.1.1",
     "pinia": "^2.0.5"
   }
 }
